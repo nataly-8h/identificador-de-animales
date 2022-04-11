@@ -3,6 +3,8 @@ from librosa.feature import mfcc
 import librosa
 import numpy as np
 import os
+import warnings
+warnings.filterwarnings('ignore')
 
 
 def get_hmm_models(hmm_models, folder, num_mfcc_features):

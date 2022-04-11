@@ -1,2 +1,5 @@
 # identificador-de-animales
-miau miau / wof wof
+Dependencies:
+pip install librosa
+pip install hmmlearn
+pip install numpy
