@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-def get_hmm_models(hmm_models, folder, num_mfcc_features):
+def get_hmm_models(hmm_models, input_folder, num_mfcc_features):
     for dirname in os.listdir(input_folder):
         subfolder_path = os.path.join(input_folder, dirname)
 
